@@ -179,14 +179,6 @@ function LeftNav() {
             <FaUserCircle color="grey" size={40} />
           </Link>
         )}
-
-        <div className="menu-toggle" onClick={handleMenu}>
-          {menuOpen ? (
-            <MdClose size={30} onClick={handleClose} />
-          ) : (
-            <FiMenu size={30} />
-          )}
-        </div>
       </div>
     </nav>
   );
